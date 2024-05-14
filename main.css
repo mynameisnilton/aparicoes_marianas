@@ -13,10 +13,24 @@ body{
 /* inicio area das fonts*/
 header,
 section h2,
-section h3 {
+section h3, p {
     font-family: "Roboto", sans-serif;
     font-weight:normal
 }
+
+h1 {
+    text-shadow: 5px 5px 5px black
+}
+
+#mensagem h2 {
+    font-size: 50px;
+}
+
+li,p,h2 {
+    text-shadow: 1px 1px 3px black
+}
+
+
 
 /* ajustando o cabecalho */
 header {
@@ -50,7 +64,7 @@ header nav li a  {
 }
 
 header nav li a:hover {
-    color: #0625b1;
+    color: #072edf;
 }
 
 /* Alinhando os menus no centro da pagina */
