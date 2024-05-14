@@ -48,6 +48,11 @@ header nav li a  {
     color: #fff;
     /* border: 1px solid red; */
 }
+
+header nav li a:hover {
+    color: #0625b1;
+}
+
 /* Alinhando os menus no centro da pagina */
 .menu-itens {
     /* border: 1px solid red; */
@@ -60,37 +65,40 @@ header nav li a  {
     margin: 0 auto;
 }
 
-#medalhamilagrosa  h2  {
-    border: 1px solid red;
-    margin-bottom: 16px;
-    margin-top: 16px;
-    text-align: center;
+
+
+
+section p {
+        /* border: 1px solid red; */
+        padding: 16px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
 }
 
-/* #medalhamilagrosa p {
-    border: 1px solid red;
-    padding: 16px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between
+section h2 {
+
+        /* border: 1px solid red; */
+        margin-bottom: 16px;
+        margin-top: 16px;
+        text-align: center;
 }
 
-#medalhamilagrosa img {
-    max-width: 50%; 
+/* section img {
+    border: 1px solid red;
+    display: flex;  
+    overflow: 
 } */
 
-
-#medalhamilagrosa p {
-    border: 1px solid red;
-    padding: 16px 0px;
-    overflow: auto; /* Limpa o float */
-}
-
-#medalhamilagrosa img {
-    border: 1px solid blue; /* Adicionando uma borda para identificar a imagem */
-    float: left; /* Faz a imagem flutuar à esquerda */
-    margin-right: 10px; /* Cria um espaço entre a imagem e o parágrafo */
+section img {
+    display: block; /* Garante que a imagem se comporte como um bloco */
+    margin: 0 auto; /* Define as margens automáticas para centralizar a imagem */
 }
 
 
-
+footer {
+    padding: 16px 0px ; 
+    background-color: rgb(39, 80, 117) ;
+    color: #fff;
+    text-align: center;
+}
