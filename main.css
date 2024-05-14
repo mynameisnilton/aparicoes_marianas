@@ -1,0 +1,96 @@
+/* resete da pagina*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+/* inicio area das fonts*/
+header,
+section h2,
+section h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight:normal
+}
+
+/* ajustando o cabecalho */
+header {
+    /* border: 1px solid red; */
+    padding: 16px 0px ; 
+    background-color: rgb(39, 80, 117) ;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+/* ajustando o texto do cabecalho */
+header h1 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* ajustando os menus do cabecalho */
+
+header nav li  {
+    display: inline;
+    margin-left: 20px;
+    font-size: 16px;
+    /* border: 1px solid red; */
+
+/* Retirando o decoration dos menus e trocando a cor */
+}
+header nav li a  {
+    text-decoration: none;
+    color: #fff;
+    /* border: 1px solid red; */
+}
+/* Alinhando os menus no centro da pagina */
+.menu-itens {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+/* Ajustando o conteudo no centro da pagina */
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#medalhamilagrosa  h2  {
+    border: 1px solid red;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+/* #medalhamilagrosa p {
+    border: 1px solid red;
+    padding: 16px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+#medalhamilagrosa img {
+    max-width: 50%; 
+} */
+
+
+#medalhamilagrosa p {
+    border: 1px solid red;
+    padding: 16px 0px;
+    overflow: auto; /* Limpa o float */
+}
+
+#medalhamilagrosa img {
+    border: 1px solid blue; /* Adicionando uma borda para identificar a imagem */
+    float: left; /* Faz a imagem flutuar à esquerda */
+    margin-right: 10px; /* Cria um espaço entre a imagem e o parágrafo */
+}
+
+
+
